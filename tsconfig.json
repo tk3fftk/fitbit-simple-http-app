@@ -2,6 +2,10 @@
   "extends": "./node_modules/@fitbit/sdk/sdk-tsconfig.json",
   "compilerOptions": {
     "target": "ES6",
-    "lib": ["es6", "DOM"]
+    "lib": [
+      "es6",
+      "DOM"
+    ],
+    "strict": true
   }
 }
