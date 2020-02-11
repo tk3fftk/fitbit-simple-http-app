@@ -14,6 +14,7 @@ function settingsComponent(props) {
           label="Item Name"
           placeholder="Type something"
           action="Add Item"
+          settingKeys="input01"
           onAutocomplete={value => {
             const autoValues = [
               { name: "red", value: "1" },
