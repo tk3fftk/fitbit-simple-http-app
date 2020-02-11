@@ -6,8 +6,15 @@ function settingsComponent(props) {
           <Text bold align="center">
             App Settings
           </Text>
-        }
-      />
+        }>
+        <TextInput
+          title="Add List Item"
+          label="My label"
+          placeholder="Type something"
+          action="Add Item"
+          settingsKey="input01"
+        />
+      </Section>
     </Page>
   );
 }
